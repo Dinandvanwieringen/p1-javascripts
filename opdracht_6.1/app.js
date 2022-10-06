@@ -1,5 +1,5 @@
 function kleur_aanpassen() {
-    document.getElementById("text").style.color = "blue";   
+    document.getElementById("text").style.color = "blue";
+    document.getElementById("text").innerText = "Inhoud Aangepast!"
 }
-
-kleur_aanpassen()
+window.setTimeout(kleur_aanpassen, 3000);
